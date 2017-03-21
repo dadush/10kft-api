@@ -53,8 +53,8 @@ GET /api/v1/time_entries/<id>
 
 | **Name** | **Description** |
 | ------------- | --------------- |
-| from | get projects that start on or after this date |
-| to | get projects that end on or before this date |
+| from | get entries that has `date` on or after this date |
+| to | get entries with `date` that end on or before this date |
 | with_suggestions | true to include suggested (unconfirmed) time entries based on assignments on the schedule |
 
 **Creating Time Entries**
